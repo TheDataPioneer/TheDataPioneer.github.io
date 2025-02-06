@@ -1,264 +1,149 @@
 <!DOCTYPE html>
-<html lang = "en" />
-
+<html lang="en">
 <head>
-      <script language="javascript">
-        if(window.location.protocol != "https:")
-          window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
-      </script>
-
-    <!--[if IE]>
-      <meta http-equiv = "X-UA-Compatible" content="IE=Edge, chrome=1" />
-    <![endif]-->
-
-    <!--  Meta  -->
-    <meta charset = "UTF-8" />
-    <meta http-equiv = "Content-Type" content = "text/html" />
-    <meta name = "viewport" content = "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, minimal-ui"/>
-    <meta name = "theme-color" content = "#009933" />
-    <title>Joshua Paul Barnard | JoshuaPaulBarnard@gmail.com</title>
-    <meta name = "author" content = "Joshua Paul Barnard" />
-    <meta name = "description" content = "Joshua Paul Barnard is a native to the Northern California Coast with a Passion for Blockchain Development, Data Science, Analytics, Web Development, and Psychology."/>
-    <base href="/">
-
-    <!--  Social Media Meta  -->
-    <meta property = "og:title" content = "Joshua Paul Barnard | JoshuaPaulBarnard@gmail.com" />
-    <meta property = "og:description" content = "Joshua Paul Barnard is a Northern California Native with a Passion for data and creating engaging visualizations."/>
-    <meta property = "og:image" content = "https://joshuapaulbarnard.github.io/images/me.png" />
-    <meta property = "og:url" content = "https://joshuapaulbarnard.github.io/index.html" />
-    <meta name = "twitter:card" content = "summary_large_image" />
-    <meta property = "og:site_name" content = "Joshua Paul Barnard's HomePage" />
-    <meta name = "twitter:image:alt" content = "Alt text for image" />
-
-    <!-- Favicons -->
-    <link rel = "icon" href = "images/favicon.ico" />
-    <link rel = "icon" href = "images/highres-favicon.png" type = "image/png" sizes = "192x192" />
-
-    <!--  CSS  -->
-    <link href = "css/main_style.css" rel = "stylesheet" type = "text/css" />
-
-    <!--  JavaScript  -->
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161503019-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-161503019-1');
-    </script>
-
-  </head>
-
-
-  <body>
-
-	   <header>
-
-    	  <div id="header-container">
-        	<div id="title-name" class="title">
-            <a href="https://joshuapaulbarnard.github.io" taget="_self" title="Return to HomePage">JOSHUA PAUL BARNARD</a>
-          </div>
-            <div id="icons-container-right">
-            	<a href="https://JoshuaPaulBarnard.tech.blog/" target="_blank">
-                    <div class="icon icon-wordpress"></div>
-                </a>
-
-                <a href="https://www.researchgate.net/profile/Joshua-Barnard-2" target="_blank">
-                    <div class="icon icon-researchgate"></div>
-                </a>
-
-                <a href="https://github.com/JoshuaPaulBarnard" target="_blank">
-                    <div class="icon icon-github"></div>
-                </a>
-
-                <a href="https://www.youtube.com/channel/UC-H1wdNPr-bQTTAsGonzGlQ" target="_blank">
-                    <div class="icon icon-youtube"></div>
-                </a>
-
-                <a href="https://public.tableau.com/profile/joshua.paul.barnard#!/" target="_blank">
-                    <div class="icon icon-tableau"></div>
-                </a>
-
-                <a href="https://www.linkedin.com/in/joshua-paul-barnard/" target="_blank">
-                    <div class="icon icon-linkedin"></div>
-                </a>
-
-                <a href="mailto:me@joshuapaulbarnard.com">
-                    <div class="icon icon-last icon-email"></div>
-                </a>
-            </div>
-        </div>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Data Pioneer LLC - Expert services in Data Science, Analytics, Web Development, Mobile Development, and Blockchain Development. Located in Fort Bragg, California.">
+    <meta name="author" content="The Data Pioneer LLC">
+    <meta name="keywords" content="Data Science, Analytics, Web Development, Mobile Development, Blockchain Development, Fort Bragg, The Data Pioneer, Data Solutions">
+    <meta property="og:title" content="The Data Pioneer LLC | Data Science & Development Services">
+    <meta property="og:description" content="Offering expert services in Data Science, Analytics, Web Development, Mobile Development, and Blockchain Development. Based in Fort Bragg, California.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thedatapioneer.com">
+    <meta property="og:image" content="https://www.thedatapioneer.com/assets/og-image.png">
+    <title>The Data Pioneer LLC | Data Science & Development</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; /* light beige */
+            color: #2f2f2f; /* dark earthy brown */
+        }
+        header {
+            background-color: #4a703b; /* earthy green */
+            padding: 1rem;
+            text-align: center;
+            color: #ffffff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://www.thedatapioneer.com/assets/hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .section {
+            padding: 2rem;
+        }
+        .section h2 {
+            text-align: center;
+            color: #4a703b;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .service-card {
+            background-color: #ffffff;
+            border: 2px solid #4a703b;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 300px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .service-card h3 {
+            color: #4a703b;
+        }
+        footer {
+            background-color: #2f2f2f;
+            color: #ffffff;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer a {
+            color: #4a703b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Data Pioneer LLC</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <main>
+    <section class="hero">
+        <h1>Your Partner in Data-Driven Solutions</h1>
+    </section>
 
-        <div id="portfolio-1" class="portfolio">
-        	<div class="portfolio-container">
-            	<div class="portfolio-text-container portfolio-text-container-left">
-                	<div class="portfolio-text-title">RESUME</div>
-
-                    <div class="portfolio-text-body">
-                    	My resume is based on a more design-oriented perspective, opposed to the classic black and white style.  It is made 100% from scratch in Adobe Photoshop.
-                    </div>
-
-                    <a href="/assets/JoshuaPaulBarnard-Resume.pdf" target="_blank">
-                    	<div class="portfolio-text-button">DOWNLOAD PDF</div>
-                    </a>
-                </div>
+    <section class="section" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Data Science</h3>
+                <p>Unlock insights from your data with predictive modeling, machine learning, and statistical analysis.</p>
+            </div>
+            <div class="service-card">
+                <h3>Analytics</h3>
+                <p>Turn data into actionable insights with advanced business intelligence and reporting solutions.</p>
+            </div>
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Responsive, modern websites tailored to your business needs, ensuring optimal performance and usability.</p>
+            </div>
+            <div class="service-card">
+                <h3>Mobile Development</h3>
+                <p>Build mobile apps that deliver smooth user experiences on Android and iOS devices.</p>
+            </div>
+            <div class="service-card">
+                <h3>Blockchain Development</h3>
+                <p>Develop secure, scalable blockchain solutions for decentralized applications and smart contracts.</p>
             </div>
         </div>
+    </section>
 
-        <div id="portfolio-2" class="portfolio">
-        	<div class="portfolio-container">
-            	<div class="portfolio-text-container portfolio-text-container-left">
-                	<div class="portfolio-text-title">Data Vizualizations</div>
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>The Data Pioneer LLC is a Fort Bragg-based company offering innovative solutions in data science, analytics, and software development. Our mission is to empower businesses with cutting-edge technology and data-driven strategies to help them thrive in a competitive landscape.</p>
+    </section>
 
-                    <div class="portfolio-text-body">
-                    	I enjoy exploring data sets and creating beautiful and engaging Data Visualizations to tell the story which the data provides.
-                    </div>
-
-                    <a href="https://public.tableau.com/app/profile/joshua.paul.barnard#!/" target="_blank">
-                    	<div class="portfolio-text-button">LAUNCH WEBSITE</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div id="portfolio-3" class="portfolio">
-          	<div class="portfolio-container">
-              	<div class="portfolio-text-container portfolio-text-container-left">
-                  	<div class="portfolio-text-title">Projects</div>
-                      <div class="portfolio-text-body">
-                        A collection of some of my coding projects.
-                      </div>
-
-                      <a href="https://github.com/JoshuaPaulBarnard" target="_blank">
-                      	<div class="portfolio-text-button">LAUNCH WEBSITE</div>
-                      </a>
-                </div>
-            </div>
-        </div>
-    </main>
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:Contact@TheDataPioneer.com">Contact@TheDataPioneer.com</a></p>
+        <p>Location: Fort Bragg, California</p>
+    </section>
 
     <footer>
-    	<div id="footer-container">
-        	<div class="footer-column footer-main">
-            	<div class="title">ABOUT</div>
-
-                <div class="avatar"></div>
-
-                <div class="text">
-                	Joshua Paul Barnard is a Northern California Native with a Passion for data and creating engaging visualizations.
-                </div>
-            </div>
-
-            <div class="footer-column footer-main">
-            	<div class="title">BLOG</div>
-
-                <div class="text">
-                	I write a personal blog about new statistics and computer science tools I am learning and topics I find interesting, and you can find it below:<br>
-                    &middot; <a href="https://JoshuaPaulBarnard.tech.blog" target="_blank">JoshuaPaulBarnard.tech.blog</a><br>
-                </div>
-            </div>
-
-            <div class="footer-column footer-main footer-column-last">
-            	<div class="title">
-                CONTACT
-              </div>
-
-              <div class="text">
-              	Please feel free to contact me if you are interested in me or my work! Below you can find my social media and email:
-              </div>
-
-              <div class="footer-socialMedia">
-                <a href="https://JoshuaPaulBarnard.tech.blog/" target="_blank">
-                      <div class="icon icon-wordpress"></div>
-                  </a>
-
-                  <a href="https://www.researchgate.net/profile/Joshua-Barnard-2" target="_blank">
-                      <div class="icon icon-researchgate"></div>
-                  </a>
-
-                  <a href="https://github.com/JoshuaPaulBarnard" target="_blank">
-                      <div class="icon icon-github"></div>
-                  </a>
-
-                  <a href="https://www.youtube.com/channel/UC-H1wdNPr-bQTTAsGonzGlQ" target="_blank">
-                      <div class="icon icon-youtube"></div>
-                  </a>
-
-                  <a href="https://public.tableau.com/profile/joshua.paul.barnard#!/" target="_blank">
-                      <div class="icon icon-tableau"></div>
-                  </a>
-
-                  <a href="https://www.linkedin.com/in/joshua-paul-barnard/" target="_blank">
-                      <div class="icon icon-linkedin"></div>
-                  </a>
-
-                  <a href="mailto:me@joshuapaulbarnard.com">
-                      <div class="icon icon-last icon-email"></div>
-                  </a>
-            	</div>
-            </div>
-
-            <div class="footer-mobile">
-              <div class="title">
-                About Me
-              </div>
-
-              <div class="avatar"></div>
-
-              <div class="text">
-                <p>Joshua Paul Barnard is a Northern California Native with a Passion for Statistics and Web Development.</p>
-                <p>Visit my blog at:  <a href="https://JoshuaPaulBarnard.tech.blog" target="_blank">JoshuaPaulBarnard.tech.blog</a></p>
-                <p>Please feel free to contact me if you are interested in me or my work! Below you can find my social media and email:</p>
-              </div>
-
-              <div class="footer-socialMedia">
-                <a href="https://JoshuaPaulBarnard.tech.blog/" target="_blank">
-                      <div class="icon icon-wordpress"></div>
-                  </a>
-
-                  <a href="https://www.researchgate.net/profile/Joshua-Barnard-2" target="_blank">
-                      <div class="icon icon-researchgate"></div>
-                  </a>
-
-                  <a href="https://github.com/JoshuaPaulBarnard" target="_blank">
-                      <div class="icon icon-github"></div>
-                  </a>
-
-                  <a href="https://www.youtube.com/channel/UC-H1wdNPr-bQTTAsGonzGlQ" target="_blank">
-                      <div class="icon icon-youtube"></div>
-                  </a>
-
-                  <a href="https://public.tableau.com/profile/joshua.paul.barnard#!/" target="_blank">
-                      <div class="icon icon-tableau"></div>
-                  </a>
-
-                  <a href="https://www.linkedin.com/in/joshua-paul-barnard/" target="_blank">
-                      <div class="icon icon-linkedin"></div>
-                  </a>
-
-                  <a href="mailto:me@joshuapaulbarnard.com">
-                      <div class="icon icon-last icon-email"></div>
-                  </a>
-              </div>
-
-        </div>
-
+        <p>&copy; 2025 The Data Pioneer LLC. All Rights Reserved.</p>
+        <p>Website by <a href="https://github.com/TheDataPioneer">The Data Pioneer</a></p>
     </footer>
-
 </body>
-
 </html>
