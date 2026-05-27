@@ -1,149 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Data Pioneer LLC - Expert services in Data Science, Analytics, Web Development, Mobile Development, and Blockchain Development. Located in Fort Bragg, California.">
-    <meta name="author" content="The Data Pioneer LLC">
-    <meta name="keywords" content="Data Science, Analytics, Web Development, Mobile Development, Blockchain Development, Fort Bragg, The Data Pioneer, Data Solutions">
-    <meta property="og:title" content="The Data Pioneer LLC | Data Science & Development Services">
-    <meta property="og:description" content="Offering expert services in Data Science, Analytics, Web Development, Mobile Development, and Blockchain Development. Based in Fort Bragg, California.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.thedatapioneer.com">
-    <meta property="og:image" content="https://www.thedatapioneer.com/assets/og-image.png">
-    <title>The Data Pioneer LLC | Data Science & Development</title>
-    <style>
-        body {
-            font-family: 'Arial, sans-serif';
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5dc; /* light beige */
-            color: #2f2f2f; /* dark earthy brown */
-        }
-        header {
-            background-color: #4a703b; /* earthy green */
-            padding: 1rem;
-            text-align: center;
-            color: #ffffff;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-        }
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .hero {
-            background-image: url('https://www.thedatapioneer.com/assets/hero.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 60vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #ffffff;
-            text-shadow: 2px 2px 4px #000000;
-        }
-        .hero h1 {
-            font-size: 3rem;
-        }
-        .section {
-            padding: 2rem;
-        }
-        .section h2 {
-            text-align: center;
-            color: #4a703b;
-        }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2rem;
-        }
-        .service-card {
-            background-color: #ffffff;
-            border: 2px solid #4a703b;
-            border-radius: 8px;
-            padding: 1rem;
-            width: 300px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .service-card h3 {
-            color: #4a703b;
-        }
-        footer {
-            background-color: #2f2f2f;
-            color: #ffffff;
-            padding: 1rem;
-            text-align: center;
-        }
-        footer a {
-            color: #4a703b;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Data Pioneer | Web, Data, Research & Game Systems</title>
+  <meta name="description" content="The Data Pioneer builds websites, analytics systems, research tools, psychometric frameworks, and experimental game systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>The Data Pioneer LLC</h1>
-        <nav>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#top" class="brand" aria-label="The Data Pioneer home">
+        <img src="logo.jpg" alt="The Data Pioneer logo" class="brand-logo" />
+        <span>The Data Pioneer</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-    <section class="hero">
-        <h1>Your Partner in Data-Driven Solutions</h1>
-    </section>
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-overlay"></div>
+        <div class="chart-line line-one"></div>
+        <div class="chart-line line-two"></div>
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+      </div>
 
-    <section class="section" id="services">
-        <h2>Our Services</h2>
-        <div class="services">
-            <div class="service-card">
-                <h3>Data Science</h3>
-                <p>Unlock insights from your data with predictive modeling, machine learning, and statistical analysis.</p>
-            </div>
-            <div class="service-card">
-                <h3>Analytics</h3>
-                <p>Turn data into actionable insights with advanced business intelligence and reporting solutions.</p>
-            </div>
-            <div class="service-card">
-                <h3>Web Development</h3>
-                <p>Responsive, modern websites tailored to your business needs, ensuring optimal performance and usability.</p>
-            </div>
-            <div class="service-card">
-                <h3>Mobile Development</h3>
-                <p>Build mobile apps that deliver smooth user experiences on Android and iOS devices.</p>
-            </div>
-            <div class="service-card">
-                <h3>Blockchain Development</h3>
-                <p>Develop secure, scalable blockchain solutions for decentralized applications and smart contracts.</p>
-            </div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Web • Data • Research • Game Systems</p>
+          <h1>Exploring data, systems, and human behavior.</h1>
+          <p class="hero-subtitle">
+            The Data Pioneer builds practical digital systems at the intersection of web development,
+            data science, psychometrics, research, and interactive world design.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#services">Explore Services</a>
+          </div>
         </div>
+
+        <div class="hero-card" aria-label="The Data Pioneer visual identity">
+          <img src="logo.jpg" alt="Illustrated explorer with analytics charts and mountains" class="hero-logo" />
+          <div class="signal-card signal-one">
+            <span class="signal-label">Systems</span>
+            <strong>Architecture</strong>
+          </div>
+          <div class="signal-card signal-two">
+            <span class="signal-label">Research</span>
+            <strong>Measurement</strong>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="section" id="about">
-        <h2>About Us</h2>
-        <p>The Data Pioneer LLC is a Fort Bragg-based company offering innovative solutions in data science, analytics, and software development. Our mission is to empower businesses with cutting-edge technology and data-driven strategies to help them thrive in a competitive landscape.</p>
+    <section class="intro section-pad-sm">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow">A modern research & development studio</p>
+          <h2>Technical execution with interdisciplinary depth.</h2>
+        </div>
+        <p>
+          The Data Pioneer helps transform complex ideas into usable products, dashboards, research tools,
+          and creative systems. The work combines clean software, reliable data pipelines, behavioral insight,
+          and systems-level design.
+        </p>
+      </div>
     </section>
 
-    <section class="section" id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:Contact@TheDataPioneer.com">Contact@TheDataPioneer.com</a></p>
-        <p>Location: Fort Bragg, California</p>
+    <section id="services" class="services section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>Build, measure, research, and play.</h2>
+        </div>
+
+        <div class="card-grid four-grid">
+          <article class="service-card">
+            <div class="icon">🌐</div>
+            <h3>Web Development</h3>
+            <p>Fast, responsive websites and digital tools built with clear structure, strong UX, and maintainable code.</p>
+            <ul>
+              <li>Business websites</li>
+              <li>Landing pages</li>
+              <li>Dashboards & portals</li>
+              <li>Hosting and DNS guidance</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">📊</div>
+            <h3>Data Analysis, Science & Engineering</h3>
+            <p>Analytics workflows that turn raw data into trustworthy insight, operational reports, and decision systems.</p>
+            <ul>
+              <li>Python & SQL analytics</li>
+              <li>ETL pipelines</li>
+              <li>Cloudflare and traffic analysis</li>
+              <li>Executive dashboards</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">🧠</div>
+            <h3>Psychometrics & Research</h3>
+            <p>Measurement-focused research systems for human behavior, AI evaluation, surveys, and applied psychology.</p>
+            <ul>
+              <li>Scale design</li>
+              <li>Survey methodology</li>
+              <li>Quantitative psychology</li>
+              <li>AI behavior evaluation</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">🎮</div>
+            <h3>Game Development</h3>
+            <p>Game systems, interactive prototypes, and worldbuilding frameworks grounded in psychology and systems design.</p>
+            <ul>
+              <li>Mechanics design</li>
+              <li>Board/card game systems</li>
+              <li>Interactive prototypes</li>
+              <li>Simulation design</li>
+            </ul>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 The Data Pioneer LLC. All Rights Reserved.</p>
-        <p>Website by <a href="https://github.com/TheDataPioneer">The Data Pioneer</a></p>
-    </footer>
+    <section id="projects" class="projects section-pad">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Featured Trails</p>
+            <h2>Projects with a systems-first approach.</h2>
+          </div>
+          <p>Each project is treated like an expedition: define the terrain, map the signals, build the tools, and refine the path.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card large-project">
+            <span class="tag">Symbolic Systems</span>
+            <h3>The Blind Tarot</h3>
+            <p>An experimental reflection system combining physical cards, encoded access, daily journaling, and symbolic research.</p>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Analytics</span>
+            <h3>Traffic Intelligence</h3>
+            <p>Behavioral segmentation, anomaly detection, bot-pattern analysis, and infrastructure-aware reporting.</p>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">AI Systems</span>
+            <h3>Agent Lab</h3>
+            <p>Local and distributed AI agent workflows for research, automation, data analysis, and experimental coordination.</p>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Game Worlds</span>
+            <h3>Interactive Systems</h3>
+            <p>Worldbuilding, mechanics, prototype loops, and psychology-driven game concepts for digital and tabletop formats.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="research section-pad">
+      <div class="container research-layout">
+        <div class="research-copy">
+          <p class="eyebrow">Research Philosophy</p>
+          <h2>Data is only useful when it helps humans navigate complexity.</h2>
+          <p>
+            The Data Pioneer connects technical systems with psychological insight. That means asking better questions,
+            designing better measurements, building reliable infrastructure, and creating interfaces that support real decisions.
+          </p>
+          <a class="text-link" href="#contact">Start a collaboration →</a>
+        </div>
+
+        <div class="trail-panel">
+          <div class="trail-step">
+            <span>01</span>
+            <strong>Map the terrain</strong>
+            <p>Clarify goals, constraints, users, data sources, and unknowns.</p>
+          </div>
+          <div class="trail-step">
+            <span>02</span>
+            <strong>Build the instruments</strong>
+            <p>Create websites, dashboards, pipelines, surveys, or prototypes.</p>
+          </div>
+          <div class="trail-step">
+            <span>03</span>
+            <strong>Read the signals</strong>
+            <p>Analyze patterns, validate assumptions, and refine the system.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section-pad-sm">
+      <div class="container cta-card">
+        <div>
+          <p class="eyebrow">Ready to build?</p>
+          <h2>Bring a complex idea. Leave with a working path.</h2>
+        </div>
+        <a class="button button-primary" href="mailto:contact@thedatapioneer.com">Contact The Data Pioneer</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="container footer-layout">
+      <div>
+        <a href="#top" class="footer-brand">
+          <img src="logo.jpg" alt="The Data Pioneer logo" />
+          <span>The Data Pioneer</span>
+        </a>
+        <p>Web development, data systems, psychometrics, research, and game development.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:contact@thedatapioneer.com">contact@thedatapioneer.com</a>
+        <a href="tel:+17078095409">+1 (707) 809-5409</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> The Data Pioneer. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
